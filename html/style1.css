@@ -33,3 +33,16 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+  .circle-container{
+    margin-left: 20%;
+  }
+  .circle{
+    margin: 25px;
+
+    background-color: aqua;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+  }

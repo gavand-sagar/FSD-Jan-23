@@ -1,0 +1,23 @@
+.background{
+    background-color: grey;
+}
+.container{
+    border: none ;
+    background-color:whitesmoke;
+    padding: 5px;
+    margin: 10px;
+}
+.title{
+    font-size: 15px;
+}
+blue{
+color:blue;
+font-size: 8px;
+}
+grey{
+    color:grey;
+    font-size: 8px;
+}
+p{
+    font-size: 10px;
+}
