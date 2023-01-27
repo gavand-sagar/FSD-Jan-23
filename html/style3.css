@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(153, 153, 153);
+   width: 1250px;
+}
+.card{
+    background-color: rgb(236, 234, 234);
+    border: none;
+    margin: 20px;
+    padding: 10px;
+    width: 550px;
+    text-align: left;
+}
+.title{
+    font-size: 17px;
+}
+hr{
+    color: red;
+}
+input{
+   
+    width: 450px;
+    height: 50px;   
+}
+.button{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 50px;
+    
+}
+.recipe-card{
+    width: 225px;
+    background-color: rgb(153, 153, 153);
+    margin: 25px;
+    
+}
+div>span{
+    font-size: 10px;
+}
+div>p{
+    font-size: 7px;
+    
+}
+img{
+    width: 225px;
+    height: 165px
+}
+.textblock{
+    margin-left: 10px;
+    
+}
+.tags{
+    font-size: 5px;
+    background-color: grey;
+    color: white;
+    padding: 2px;
+}
+td{
+    vertical-align: bottom;
+    text-align: left;
+}
