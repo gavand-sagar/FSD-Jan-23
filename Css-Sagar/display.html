@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* block */
+        .div{
+            background-color:orange;
+            height:50px;
+            width:100px;
+            display: inline-block;
+        }
+
+        /* inline */
+        .span{
+            background-color:plum;
+            height:50px; /* doesn't work */
+            display: inline;
+        }
+
+
+        .card{
+            border: 1px solid gray;
+            margin: 10px;
+            height: 150px;
+            width:100px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="div">This (block element)</div>
+    
+    <div class="div">This (block element)</div>
+    
+    <span class="span">This is span(Inline)</span>
+
+
+    
+
+    <span>and another span (Inline)</span>
+
+    <hr>
+
+    <div class="card">1</div>
+    <div class="card">2</div>
+    <div class="card">3</div>
+
+</body>
+</html>
