@@ -1,0 +1,25 @@
+input{
+    border:none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    color: rgb(72,72,72);
+
+}
+input:focus{
+    border-bottom: 2px solid purple;
+    box-shadow: 0px 5px 5px 5px plum;
+}
+button{
+    width: 120px;
+    background-image: linear-gradient(to right,rgb(179, 179, 216),rgb(235, 149, 235));
+}
+button:hover{
+    box-shadow: 0px 5px 5px 5px plum;
+}
+.container{
+    background-color: orange;
+}
+.box{
+    background-color: green;
+    width: calc(50px + 70% );
+}
