@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --my-color: blue;
+            --my-spacing: 10px;
+            --my-border : 1px solid var(--my-color);
+        }
+
+        nav,
+        footer {
+            background-color: var(--my-color);
+            padding: var(--my-spacing);
+        }
+
+        footer {
+            color: white;
+        }
+
+        p {
+            width: 100px;
+            display: inline-block;
+            padding: var(--my-spacing);
+            border: var(--my-border);
+        }
+
+        button {
+            color: var(--my-color);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+    </nav>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod assumenda, architecto officia consequuntur
+            eaque laudantium quas vel labore quaerat aut!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod assumenda, architecto officia consequuntur
+            eaque laudantium quas vel labore quaerat aut!</p>
+    </div>
+    <footer>
+        Copyright Sagar Gavand
+        <button>Contact</button>
+    </footer>
+</body>
+
+</html>
